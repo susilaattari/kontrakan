@@ -1,0 +1,34 @@
+.homestay {
+  width: 30%;
+  margin: 10px;
+  cursor: pointer;
+  /* border: solid 1px blue; */
+  padding: 10px;
+  box-shadow: 0 0 4px 0.6px rgb(74, 74, 74, 0.6);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.homestay:hover {
+  opacity: 0.8;
+}
+
+.homestay-foto {
+  box-sizing: border-box;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.homestay-foto img {
+  width: 100%;
+}
+.homestay-judul {
+  margin-top: 10px;
+  font-weight: bold;
+  font-size: 22px;
+}
+.homestay-harga {
+  margin-top: 4px;
+  font-size: 16px;
+}

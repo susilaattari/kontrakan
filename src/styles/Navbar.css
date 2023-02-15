@@ -1,0 +1,50 @@
+ul.navdd {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #38444d;
+}
+
+li.navit {
+  float: left;
+}
+
+li.navit a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li.navit a:hover, .dd:hover .dropbtn {
+  background-color: red;
+}
+
+li.dd {
+  display: inline-block;
+}
+
+.dd-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dd-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dd-content a:hover {background-color: #f1f1f1;}
+
+.dd:hover .dd-content {
+  display: block;
+}

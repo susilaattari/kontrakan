@@ -1,0 +1,94 @@
+.containerPopup {
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    background-color: rgb(67, 67, 67, 0.6);
+    color: red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    overflow-y: auto;
+    padding: 30px 0;
+}
+.popupContent {
+    box-sizing: border-box;
+    background-color: rgb(235, 235, 235);
+    min-width: 500px;
+    max-width: 800px;
+    height: max-content;
+    padding: 30px 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px 0px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.popupImg {
+    box-sizing: border-box;
+    position: relative;
+    width: 600px;
+    max-height: 6000px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+.popupImg img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.popupImgNavaSlide {
+    box-sizing: border-box;
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(148, 148, 148, 0.3);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    font-weight: bold;
+    color: black;
+}
+.popupImgNavaSlide:hover {
+    background-color: rgb(148, 148, 148, 0.6);
+}
+
+
+.popupkosanInfo {
+    box-sizing: border-box;
+    background-color: white;
+    color: black;
+    width: 100%;
+    min-height: 40px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.popupkosanInfoNama {
+    font-size: 26px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.popupkosanInfoDs {
+    font-weight: normal;
+    margin: 10px 0;
+}
+.popupkosanInfoharga {
+    box-sizing: border-box;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+}
